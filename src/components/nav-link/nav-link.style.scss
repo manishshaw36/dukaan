@@ -1,0 +1,25 @@
+.dukaan-side-nav-menu {
+    .dukaan-side-nav-menu-item {
+        height: 48px;
+        margin-top: 4px;
+        margin-bottom: 4px;
+        padding: 0 24px;
+        display: flex;
+        align-items: center;
+        position: relative;
+        .new-order-count {
+            position: absolute;
+            right: 12px;
+            height: 24px;
+            padding: 2px 11px;
+            border-radius: 14px;
+            background-color: #ea6f57;
+        }
+        &.ant-menu-item-selected {
+            background-color: #343D53 !important; 
+        }
+        img {
+            margin-right: 16px;
+        }
+    }
+}

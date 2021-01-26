@@ -1,0 +1,41 @@
+@import '~antd/dist/antd.css';
+
+@font-face {
+  font-family: 'GalanoGrotesqueMedium';
+  src: url("./assets/fonts/GalanoGrotesqueMedium.ttf");
+}
+
+@font-face {
+  font-family: 'GalanoGrotesqueRegular';
+  src: url("./assets/fonts/GalanoGrotesqueRegular.ttf");
+}
+
+body {
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'GalanoGrotesqueRegular', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  .cursor-pointer {
+    cursor: pointer;
+  }
+  .ant-layout-sider, .ant-menu.ant-menu-dark {
+    background-color: #1e2640 !important;
+  }
+  .font-GalanoGrotesqueMedium, h5, h4, h3, h2, h1 {
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    font-family: 'GalanoGrotesqueMedium'
+  }
+  .font-rg {
+    font-size: 16px;
+  }
+}
+

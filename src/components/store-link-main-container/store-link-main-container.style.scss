@@ -1,0 +1,54 @@
+.dukaan-store-link-container {
+    margin-bottom: 32px;
+    .card-row  {
+        margin: 0 -12px;
+        .col-4 {
+            padding: 0 12px;
+        }
+    }
+    .lg-card {
+        .ant-card-body {
+            padding: 20px;
+            .store-link {
+                margin: 12px 0 24px;
+                font-size: 18px;
+                font-weight: 500;
+                font-stretch: normal;
+                font-style: normal;
+                line-height: 1.44;
+                letter-spacing: normal;
+                text-align: left;
+                color: #ee741f;
+                text-decoration: underline;
+            }
+            .share-icon {
+                margin-right: 12px;
+                margin-top: 12px;
+            }
+        }
+    }
+    .sm-card {
+        .ant-card-body {
+            padding: 16px 20px 15px;
+        }
+        .ant-card:not(:last-child) { 
+            margin-bottom: 24px;
+        } 
+        h2 {
+            color: #1a181e;
+            margin-top: 4px;
+            margin-bottom: 0;
+        }
+    }
+    .ant-card {
+        border-radius: 8px;
+        box-shadow: 0 2px 6px 0 rgba(26, 24, 30, 0.04);        
+        .card-text-regular {
+            color: #4d4d4d;
+            font-size: 16px;
+            line-height: 1.5;
+            margin: 0;
+            word-wrap: break-word;
+        }
+    }
+}

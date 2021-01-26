@@ -1,0 +1,91 @@
+.dukaan-active-order-container {
+    .view-link {
+        margin: 0;
+        margin-right: 4px;
+        font-size: 18px;
+        font-weight: 500;
+        font-stretch: normal;
+        font-style: normal;
+        line-height: 1.44;
+        letter-spacing: normal;
+        text-align: left;
+        color: #808080;
+        text-decoration: underline;
+    }
+    .order-tab {
+        margin: 0px 12px 24px 0;
+        padding: 6px 20px;
+        font-size: 16px;
+        border-radius: 40px;
+        background-color: #e5e5e5;
+        color: #808080;
+        cursor: pointer;
+        &.selected {
+            background-color: #146eb4;
+            color: #ffffff;
+        }
+    }
+    .item-row {
+        margin: -12px;
+        display: flex;
+        flex-wrap: wrap;
+        .item-card {
+            padding: 12px;
+            .ant-card {
+                border-radius: 8px;
+                box-shadow: 0 2px 6px 0 rgba(26, 24, 30, 0.04);
+                .item-order-details {    
+                    margin-bottom: 12px;
+                    .item-order-id {
+                        font-size: 16px;
+                        margin-bottom: 0;
+                        .new-tag {
+                            font-size: 12px;
+                            font-weight: 500;
+                            font-stretch: normal;
+                            font-style: normal;
+                            line-height: 1.33;
+                            letter-spacing: normal;
+                            text-align: left;
+                            color: var(--white);
+                            padding: 2px 6px;
+                            border-radius: 3px;
+                            background-color: #17b31b;
+                            margin-left: 8px;
+                        }
+                    }
+                    .item-order-on {
+                        color: #808080;
+                        margin-bottom: 0;
+                    }
+                }
+                .item-order-other-details {
+                    align-items: flex-end;
+                    .item-img-container {
+                        width: 80px;
+                        height: 80px;
+                        margin-right: 16px;
+                        img {
+                            width: 100%;
+                            object-fit: contain;
+                            border-radius: 4px;
+                        }
+                    }
+                    .item-count  {
+                        font-size: 16px;
+                        margin: 0 0 4px;
+                        color: #808080;
+                    }
+                    .item-price {
+                        font-size: 18px;
+                        color: #146eb4;
+                    }
+                    .item-details-btn {
+                        border-radius: 4px;
+                        padding: 4px 8px 4px 12px;
+                    }
+                }
+            }
+        }
+    }
+}
