@@ -14,10 +14,6 @@ const layoutStyle: CSSProperties = {
   overflow: "hidden"
 }
 
-// const BackgroundColor: any = {
-//   dark: "1e2640"
-// }
-
 const sliderStyle: CSSProperties = {
   overflow: "auto",
   height: "100%",
@@ -43,7 +39,7 @@ export default function SiderLayout({children}: any) {
         <div style={companyLogoStyle}>
           <img src={companyLogoSrc} alt="Dukaan logo" />
         </div>
-        <NavLinks navLinkList={sideNavsArray} theme="dark" mode="vertical" isLink={false} />
+        <NavLinks navLinkList={sideNavsArray} theme="dark" mode="vertical"/>
         <NeedHelp />
       </Sider>
       <Layout className="site-layout">

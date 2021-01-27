@@ -9,7 +9,6 @@ interface NavLinksProps extends RouteComponentProps<any> {
     navLinkList: any[];
     mode: "horizontal" | "vertical" | "inline";
     theme?: "dark" | undefined;
-    isLink?: boolean;
 }
 
 function NavLinks({ navLinkList, mode, theme, location }: NavLinksProps) {
