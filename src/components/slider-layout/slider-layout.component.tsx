@@ -28,7 +28,7 @@ const companyLogoStyle: CSSProperties = {
 
 const storeContentStyle: CSSProperties = {
   height: "calc(100% - 80px)",
-  overflow: "scroll",
+  overflow: "hidden scroll",
   margin: 32
 }
 
