@@ -1,7 +1,7 @@
 import React, { CSSProperties } from "react";
 import { Layout } from "antd";
 import NavLinks from '../nav-link/nav-link.component';
-import { sideNavsArray } from '../side-nav/side-nav.component';
+import { sideNavsArray } from '../../shared/modal/side-nav/side-nav.modal';
 
 import companyLogoSrc from '../../assets/svg/dukaan_logo_white.svg';
 import Header from '../header/header.component';

@@ -1,8 +1,8 @@
-import iconsNavbarHomeActive from '../../assets/svg/icons_navbar_home_active.svg';
-import iconsNavbarAccountInactive from '../../assets/svg/icons_navbar_account_inactive.svg';
-import iconsNavbarProductsInactive from '../../assets/svg/icons_navbar_catalogue_inactive.svg';
-import iconsNavbarMarketingInactive from '../../assets/svg/icons_navbar_marketing_inactive.svg';
-import iconsNavbarOrdersInactive from '../../assets/svg/icons_navbar_orders_inactive.svg';
+import iconsNavbarHomeActive from '../../../assets/svg/icons_navbar_home_active.svg';
+import iconsNavbarAccountInactive from '../../../assets/svg/icons_navbar_account_inactive.svg';
+import iconsNavbarProductsInactive from '../../../assets/svg/icons_navbar_catalogue_inactive.svg';
+import iconsNavbarMarketingInactive from '../../../assets/svg/icons_navbar_marketing_inactive.svg';
+import iconsNavbarOrdersInactive from '../../../assets/svg/icons_navbar_orders_inactive.svg';
 
 export class SideNav {
     displayName: string;

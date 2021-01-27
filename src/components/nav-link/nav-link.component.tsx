@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Menu } from 'antd';
 import { Link, RouteComponentProps, withRouter } from 'react-router-dom';
-import { SideNav } from '../side-nav/side-nav.component';
+import { SideNav } from '../../shared/modal/side-nav/side-nav.modal';
 
 import  './nav-link.style.scss';
 
@@ -12,11 +12,17 @@ interface NavLinksProps extends RouteComponentProps<any> {
 }
 
 function NavLinks({ navLinkList, mode, theme, location }: NavLinksProps) {
-    const [selectedMenu, setSelectedMenu] = useState<any>([]);
+    const [selectedMenu, setSelectedMenu] = useState<string[]>([]);
     const newOrdersCount = 2;
+
     useEffect(() => {
         let path = location.pathname.split('/');
-        setSelectedMenu([path[path.length - 1]])
+        if(path.length) {
+            let selectedPath = path[path.length - 1];
+            if(!selectedMenu.includes(selectedPath))
+                setSelectedMenu([selectedPath])
+        }
+        // eslint-disable-next-line
     }, [location.pathname]);
 
     return <Menu
